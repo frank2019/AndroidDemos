@@ -84,7 +84,7 @@ public class TestBottomBarActivity extends AppCompatActivity implements BottomNa
      */
     @Override
     public void onTabSelected(int position) {
-        Log.d(TAG, "onTabSelected() called with: " + "position = [" + position + "]");
+        Log.e(TAG, "onTabSelected() called with: " + "position = [" + position + "]");
         FragmentManager fm = this.getFragmentManager();
         //开启事务
         FragmentTransaction transaction = fm.beginTransaction();
