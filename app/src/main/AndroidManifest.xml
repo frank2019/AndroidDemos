@@ -16,6 +16,10 @@
 
         </activity>
         <activity android:name=".smoothprogressbar.TestSmoothProgressBarActivity">
+
+        </activity>
+
+        <activity android:name=".setting.SettingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
